@@ -1,0 +1,9 @@
+﻿body {
+}
+
+pre {
+    background-color: #eee;
+    width: 100%;
+    min-height: 10px;
+    font-family: Consolas,monospace;
+}

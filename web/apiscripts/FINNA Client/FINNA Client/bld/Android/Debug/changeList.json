@@ -1,0 +1,16 @@
+{
+  "changedFilesIos": [
+    "res\\screens\\android\\screen-mdpi-portrait.png",
+    "index.html",
+    "scripts\\index.js"
+  ],
+  "deletedFilesIos": [],
+  "addedPluginsIos": [],
+  "deletedPluginsIos": [],
+  "changedFiles": [
+    "scripts\\index.js"
+  ],
+  "deletedFiles": [],
+  "addedPlugins": [],
+  "deletedPlugins": []
+}
