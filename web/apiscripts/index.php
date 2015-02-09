@@ -179,19 +179,7 @@ final class API extends Singleton
         $searchObject->init();
 
         $result = $searchObject->processSearch(false, true);
-//var_dump($searchObject->getSimilarItems());
-// $this->db = ConnectionManager::connectToIndex();
-// Retrieve the record from the index
-//if ($record = $this->db->getRecord('jykdok.758658')) {
-//$this->recordDriver = RecordDriverFactory::initRecordDriver($record);
-//echo var_dump($this->recordDriver->getSimilarItems());
-//}
 
-//echo var_dump($searchObject->getCheckboxFacets());
-        //$finalArray = array();
-//echo var_dump($searchObject->getThumbnail('large'));
-        //foreach($result['response']['docs'] as $key=>$value);
-//echo var_dump(array_keys($result['response']));
         return isset($result['response']) ? $result['response']['docs'] : null;
     }
 
